@@ -5,7 +5,7 @@ import Produit from "./components/Produit";
 function App() {
   return (
     <div className="App">
-      <Cart mony={200+"€"} dinero={0+"€"} />
+      <Cart mony={2000+"€"} dinero={0+"€"} />
       <div className="container">
         <div className="macbook">
           <Produit apple="pc portable MacBook 2020" prix={122+"€"} />

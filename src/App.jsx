@@ -9,18 +9,18 @@ function App() {
       <div className="container">
         <div className="macbook">
           <Produit apple="pc portable MacBook 2020" prix={122+"€"} />
-          <Produit apple="pc portable MacBook 2020" prix={122+"€"} />
-          <Produit apple="pc portable MacBook 2020" prix={122+"€"} />
+          <Produit apple="pc portable MacBook 2015" prix={122+"€"} />
+          <Produit apple="pc portable MacBook 2017" prix={122+"€"} />
         </div>
         <div className="iphone">
           <Produit apple="IPhone 12 RED" prix={122+"€"} />
-          <Produit apple="IPhone 12 RED" prix={122+"€"} />
-          <Produit apple="IPhone 12 RED" prix={122+"€"} />
+          <Produit apple="IPhone 13 RED" prix={122+"€"} />
+          <Produit apple="IPhone 11 RED" prix={122+"€"} />
         </div>
         <div className="galaxy">
           <Produit apple="Galaxy S21 Ultra" prix={80+"€"} />
-          <Produit apple="Galaxy S21 Ultra" prix={80+"€"} />
-          <Produit apple="Galaxy S21 Ultra" prix={80+"€"} />
+          <Produit apple="Galaxy S20 Ultra" prix={80+"€"} />
+          <Produit apple="Galaxy S10" prix={80+"€"} />
         </div>
       </div>
     </div>

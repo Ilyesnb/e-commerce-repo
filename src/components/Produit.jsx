@@ -1,10 +1,13 @@
-import React, {useState} from "react"
-const Produit = ({apple,prix}) => {
+
+const Produit = ({apple,prix, Commander }) => {
+const handleClick =()=>{
+    Commander(prix)
+}
     return (
-        <div >
+        <div className="items" >
             <h4>{apple}</h4>
             <p className='silver'>{prix}</p>
-            <button className='nothing'>ajouter au panier</button>
+            <button className='nothing'onClick={handleClick} >ajouter au panier</button>
         </div>
     );
 };

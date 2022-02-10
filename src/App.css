@@ -2,8 +2,8 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 .container{
-  display: flex;
-  justify-content: space-around;
+  display: grid;
+  grid-template-columns: repeat(3,1fr);
   margin-top: 40px;
 }
 h1{
@@ -19,20 +19,6 @@ p{
 }
 h3{
   text-align: center;
-}
-.macbook {
-  text-align: center;
-  justify-content: center;
-  
-}
-.galaxy {
-  text-align: center;
-  justify-content: center;
-  
-}
-.iphone {
-  text-align: center;
-  justify-content: center;
 }
 .nothing{
  padding: 7px;
@@ -53,5 +39,10 @@ h3{
 }
 .silver{
   color: rgb(71, 16, 71);
+}
+.items{
+  justify-content: center;
+  text-align: center;
+  align-items: center;
 }
 
